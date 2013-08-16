@@ -1,0 +1,25 @@
+{
+    "version":"1.0",
+	"name": "Device Storage",
+    "description": "This app demonstrates how to use Device Storage",
+    "launch_path": "/index.html",
+	"fullscreen": "false",
+    "icons": {
+        "16": "/images/icon_016.png",
+        "32": "/images/icon_032.png",
+        "48": "/images/icon_048.png",
+        "128": "/images/icon_128.png"
+    },
+	"developer": {
+        "name": "Romin Irani",
+        "url": "http://www.rominirani.com"
+    },
+    "default_locale": "en",
+	"type": "privileged",
+	"permissions": {
+	  "device-storage:videos":  { "access": "readwrite" },
+	  "device-storage:pictures":{ "access": "readwrite" },
+	  "device-storage:sdcard":  { "access": "readwrite" },
+	  "device-storage:music":   { "access": "readwrite" }
+	}
+}
